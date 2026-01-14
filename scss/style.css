@@ -1,0 +1,637 @@
+.back {
+  width: 100%;
+  position: absolute;
+}
+
+body {
+  background-image: url(../image/back.png);
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.yellow1 {
+  position: absolute;
+  width: 93px;
+  top: 0;
+  left: 244px;
+}
+
+.yellow2 {
+  position: absolute;
+  width: 93px;
+  top: 73px;
+  left: 625px;
+}
+
+.yellow3 {
+  position: absolute;
+  width: 93px;
+  top: 297px;
+  left: 277px;
+}
+
+.yellow4 {
+  position: absolute;
+  width: 481px;
+  top: 349px;
+  left: 428px;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+.inner .side {
+  font-size: 30px;
+  font-family: "Kalam", cursive;
+  font-weight: lighter;
+  color: #56D8FF;
+  position: fixed;
+  top: 45%;
+  right: -20px;
+  rotate: 90deg;
+}
+
+header {
+  position: relative;
+}
+header .main1 {
+  display: flex;
+}
+header .content1 .logo {
+  width: 295px;
+  margin-top: 70px;
+}
+header .content1 .baner {
+  width: 242px;
+  margin-top: 40px;
+}
+header .content1 nav {
+  margin-top: 50px;
+}
+header .content1 nav ul li {
+  padding-top: 25px;
+}
+header .content1 nav ul li p {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 20px;
+  color: #797979;
+}
+header .content1 .baner-2 {
+  width: 220px;
+  margin-top: 97px;
+}
+header .content2 .main {
+  width: 750px;
+}
+header .content2 .copy-1 {
+  font-size: 35px;
+  font-family: "Klee One", cursive;
+  color: #fff;
+  position: absolute;
+  top: 68px;
+  left: 568px;
+}
+header .content2 .copy-2 {
+  font-size: 35px;
+  font-family: "Klee One", cursive;
+  color: #fff;
+  position: absolute;
+  top: 120px;
+  left: 620px;
+}
+header .content2 h2 {
+  font-size: 48px;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 600;
+  color: #FFAFDF;
+  position: absolute;
+  top: 835px;
+  right: 0;
+  background-color: #FFFFC8;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+main .news h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 180px;
+  color: #56D8FF;
+  rotate: -6deg;
+  margin-left: -100px;
+  margin-top: 100px;
+}
+main .news h2 {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 100;
+  font-size: 42px;
+  color: #797979;
+  text-align: center;
+  margin-top: 20px;
+}
+main .news .box1 {
+  margin-top: 33px;
+}
+main .news .box1 ul {
+  width: 608px;
+  margin: 0 auto;
+}
+main .news .box1 ul li p {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 20px;
+  color: #272727;
+  line-height: 62px;
+}
+main .news .img .yellow-2,
+main .news .img .yellow-3 {
+  width: 150px;
+}
+main .news .img .yellow-2 {
+  position: absolute;
+  top: 1300px;
+}
+main .news .img .yellow-3 {
+  position: absolute;
+  top: 1300px;
+  right: 200px;
+}
+main .move {
+  margin-top: 100px;
+}
+main .move iframe {
+  width: 1100px;
+  height: 315px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .Introduction h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 180px;
+  color: #56D8FF;
+  rotate: -6deg;
+  margin-left: -100px;
+  margin-top: 100px;
+}
+main .Introduction h2 {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 100;
+  font-size: 42px;
+  color: #797979;
+  text-align: center;
+  margin-top: 20px;
+}
+main .Introduction .content3 p {
+  position: relative;
+  font-family: "Klee One", cursive;
+  color: #272727;
+  margin-top: 72px;
+  font-size: 18px;
+  line-height: 35px;
+  z-index: 10;
+}
+main .Introduction .content3 p span {
+  font-size: 15px;
+}
+main .Introduction .content3 img {
+  width: 534px;
+  position: absolute;
+  top: 2470px;
+  right: 200px;
+  z-index: 1;
+}
+main .Story h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 180px;
+  color: #56D8FF;
+  rotate: -6deg;
+  margin-left: -100px;
+  margin-top: 100px;
+}
+main .Story h2 {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 100;
+  font-size: 42px;
+  color: #797979;
+  text-align: center;
+  margin-top: 20px;
+}
+main .Story .content4 p {
+  position: relative;
+  font-family: "Klee One", cursive;
+  color: #272727;
+  margin-top: 72px;
+  font-size: 18px;
+  line-height: 35px;
+  z-index: 10;
+}
+main .Story .content4 p span {
+  font-size: 15px;
+}
+main .Story .content4 img {
+  width: 534px;
+  position: absolute;
+  top: 3310px;
+  right: 200px;
+  z-index: 1;
+}
+main .Character h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 180px;
+  color: #56D8FF;
+  rotate: -6deg;
+  margin-left: -100px;
+  margin-top: 100px;
+}
+main .Character h2 {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 100;
+  font-size: 42px;
+  color: #797979;
+  text-align: center;
+  margin-top: 20px;
+}
+main .Character .cha {
+  background-image: url(../image/yellow-boll.png);
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 100px;
+  padding-bottom: 50px;
+  scrollbar-width: none;
+}
+main .Character .cha::-webkit-scrollbar {
+  display: none;
+}
+main .Character [class^=content5-] {
+  flex: 0 0 auto;
+  width: 1000px;
+  scroll-snap-align: center;
+  background-repeat: no-repeat;
+  display: flex;
+  -moz-column-gap: 200px;
+       column-gap: 200px;
+  margin-top: 60px;
+}
+main .Character [class^=content5-] .chara-img img {
+  width: 193px;
+  margin-left: 149px;
+}
+main .Character .content5-1,
+main .Character .content5-2,
+main .Character .content5-3,
+main .Character .content5-4,
+main .Character .content5-5,
+main .Character .content5-6,
+main .Character .content5-7,
+main .Character .content5-8 {
+  background-image: url(../image/yellow-boll.png);
+  display: flex;
+  -moz-column-gap: 200px;
+       column-gap: 200px;
+  margin-top: 60px;
+}
+main .Character .content5-1 .chara-img img,
+main .Character .content5-2 .chara-img img,
+main .Character .content5-3 .chara-img img,
+main .Character .content5-4 .chara-img img,
+main .Character .content5-5 .chara-img img,
+main .Character .content5-6 .chara-img img,
+main .Character .content5-7 .chara-img img,
+main .Character .content5-8 .chara-img img {
+  width: 193px;
+  margin-left: 149px;
+}
+main .Character .content5-1 .sai,
+main .Character .content5-2 .sai,
+main .Character .content5-3 .sai,
+main .Character .content5-4 .sai,
+main .Character .content5-5 .sai,
+main .Character .content5-6 .sai,
+main .Character .content5-7 .sai,
+main .Character .content5-8 .sai {
+  margin-top: 80px;
+}
+main .Character .content5-1 .sai .rubi,
+main .Character .content5-2 .sai .rubi,
+main .Character .content5-3 .sai .rubi,
+main .Character .content5-4 .sai .rubi,
+main .Character .content5-5 .sai .rubi,
+main .Character .content5-6 .sai .rubi,
+main .Character .content5-7 .sai .rubi,
+main .Character .content5-8 .sai .rubi {
+  margin-left: 20px;
+  font-size: 15px;
+  font-family: "Klee One", cursive;
+}
+main .Character .content5-1 .sai .name,
+main .Character .content5-2 .sai .name,
+main .Character .content5-3 .sai .name,
+main .Character .content5-4 .sai .name,
+main .Character .content5-5 .sai .name,
+main .Character .content5-6 .sai .name,
+main .Character .content5-7 .sai .name,
+main .Character .content5-8 .sai .name {
+  font-size: 40px;
+  font-family: "Klee One", cursive;
+}
+main .Character .content5-1 .sai .cv,
+main .Character .content5-2 .sai .cv,
+main .Character .content5-3 .sai .cv,
+main .Character .content5-4 .sai .cv,
+main .Character .content5-5 .sai .cv,
+main .Character .content5-6 .sai .cv,
+main .Character .content5-7 .sai .cv,
+main .Character .content5-8 .sai .cv {
+  font-size: 20px;
+  font-family: "Klee One", cursive;
+  margin-top: 7px;
+}
+main .Character .content5-1 .sai .syou,
+main .Character .content5-2 .sai .syou,
+main .Character .content5-3 .sai .syou,
+main .Character .content5-4 .sai .syou,
+main .Character .content5-5 .sai .syou,
+main .Character .content5-6 .sai .syou,
+main .Character .content5-7 .sai .syou,
+main .Character .content5-8 .sai .syou {
+  font-size: 15px;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  line-height: 26px;
+  margin-top: 33px;
+  width: 450px;
+}
+main .Character .content5-1 .sai ul,
+main .Character .content5-2 .sai ul,
+main .Character .content5-3 .sai ul,
+main .Character .content5-4 .sai ul,
+main .Character .content5-5 .sai ul,
+main .Character .content5-6 .sai ul,
+main .Character .content5-7 .sai ul,
+main .Character .content5-8 .sai ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500PX;
+  gap: 30px;
+  margin-top: 60px;
+}
+main .Character .content5-1 .sai ul li img,
+main .Character .content5-2 .sai ul li img,
+main .Character .content5-3 .sai ul li img,
+main .Character .content5-4 .sai ul li img,
+main .Character .content5-5 .sai ul li img,
+main .Character .content5-6 .sai ul li img,
+main .Character .content5-7 .sai ul li img,
+main .Character .content5-8 .sai ul li img {
+  width: 80px;
+}
+main .content5-2 .chara-img img {
+  margin-top: 70px;
+}
+main .content5-3 .chara-img img {
+  margin-top: 180px;
+}
+main .content5-4 .chara-img img {
+  margin-top: 170px;
+}
+main .content5-5 .chara-img img {
+  margin-top: 110px;
+}
+main .content5-6 .chara-img img {
+  margin-top: 80px;
+}
+main .content5-7 .chara-img img {
+  margin-top: 70px;
+}
+main .content5-8 .chara-img img {
+  margin-top: 40px;
+}
+main .Staff h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 180px;
+  color: #56D8FF;
+  rotate: -6deg;
+  margin-left: -100px;
+}
+main .Staff .content-staff {
+  width: 730px;
+  margin: 0 auto;
+}
+main .Staff .content-staff h2 {
+  font-size: 32px;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  color: #797979;
+  margin-top: 50px;
+}
+main .Staff .content-staff .txt {
+  background-color: #fff;
+  border: #FFAFDF 1px solid;
+  padding: 50px 0px;
+}
+main .Staff .content-staff .txt .staff1 p,
+main .Staff .content-staff .txt .staff14 p {
+  font-family: "Klee One", cursive;
+  font-size: 25px;
+  color: #272727;
+  text-align: center;
+}
+main .Staff .content-staff .txt .staff1 p .bule,
+main .Staff .content-staff .txt .staff14 p .bule {
+  font-family: "Klee One", cursive;
+  font-weight: 200;
+  font-size: 20px;
+  color: #56D8FF;
+}
+main .Staff .content-staff .txt .staff1 p .komozi,
+main .Staff .content-staff .txt .staff14 p .komozi {
+  font-family: "Klee One", cursive;
+  font-size: 15px;
+}
+main .Staff .content-staff .txt ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 18px;
+}
+main .Staff .content-staff .txt ul li {
+  text-align: center;
+}
+main .Staff .content-staff .txt ul li p {
+  font-family: "Klee One", cursive;
+  font-size: 25px;
+  color: #272727;
+}
+main .Staff .content-staff .txt ul li p .bule {
+  font-family: "Klee One", cursive;
+  font-weight: 200;
+  font-size: 20px;
+  color: #56D8FF;
+}
+main .Staff .content-staff .txt ul li p .komozi {
+  font-family: "Klee One", cursive;
+  font-size: 15px;
+}
+main .Staff .content-staff .txt ul .staff2 {
+  padding-left: 95px;
+}
+main .Staff .content-staff .txt ul .staff3 {
+  padding-left: 80px;
+}
+main .Staff .content-staff .txt ul .staff4 {
+  padding-left: 30px;
+  padding-right: 50px;
+}
+main .Staff .content-staff .txt ul .staff5 {
+  padding-left: 65px;
+  padding-top: 30px;
+}
+main .Staff .content-staff .txt ul .staff6 {
+  padding-top: 30px;
+  padding-left: 73px;
+}
+main .Staff .content-staff .txt ul .staff7 {
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+main .Staff .content-staff .txt ul .staff8 {
+  padding-top: 30px;
+  padding-left: 70px;
+}
+main .Staff .content-staff .txt ul .staff9 {
+  padding-top: 30px;
+  padding-left: 85px;
+}
+main .Staff .content-staff .txt ul .staff10 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+main .Staff .content-staff .txt ul .staff11 {
+  padding-top: 30px;
+  padding-right: 30px;
+}
+main .Staff .content-staff .txt ul .staff12 {
+  padding-top: 30px;
+  padding-left: 5px;
+  padding-right: 53px;
+}
+main .Staff .content-staff .txt ul .staff13 {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 80px;
+}
+main .Staff .content-cast {
+  width: 730px;
+  margin: 0 auto;
+}
+main .Staff .content-cast h2 {
+  font-size: 32px;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  color: #797979;
+  margin-top: 50px;
+}
+main .Staff .content-cast ul {
+  background-color: #fff;
+  border: #FFAFDF 1px solid;
+  padding: 50px 101px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  -moz-column-gap: 90px;
+       column-gap: 90px;
+  justify-content: center;
+}
+main .Staff .content-cast ul li {
+  font-family: "Klee One", cursive;
+  font-weight: 200;
+  font-size: 25px;
+  color: #272727;
+  text-align: center;
+}
+main .Staff .content-cast ul li span {
+  font-family: "Klee One", cursive;
+  font-weight: 200;
+  font-size: 20px;
+  color: #56D8FF;
+}
+main .Staff .content-cast ul li span span {
+  font-size: 15px;
+}
+main .Staff .content-cast ul li .cast7 {
+  padding-left: 0px;
+}
+main .Staff .content-cast ul li .cast8 {
+  padding-left: 0px;
+}
+main .Staff .content-cast ul li .cast9 {
+  padding-right: 10px;
+}
+main .Music h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 180px;
+  color: #56D8FF;
+  rotate: -6deg;
+  margin-left: -100px;
+  margin-top: 100px;
+}
+main .Music h2 {
+  font-family: "Klee One", cursive;
+  color: #797979;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+}
+main .Music h2 .title {
+  font-size: 32px;
+}
+main .Music h2 .pink {
+  color: #FFAFDF;
+}
+main .Music .content7 {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+main .Music .content7 .jaket img {
+  width: 350px;
+}
+main .Music .content7 .mus-txt {
+  font-size: 12px;
+}
+main .Music .content7 .mus-txt h3 {
+  font-size: 15px;
+  color: #FFAFDF;
+}
+main .Music .content7 .mus-txt p {
+  padding-top: 10px;
+  line-height: 16px;
+  color: #797979;
+}
+main .Music .content7 .mus-txt .txt3 {
+  margin-top: 20px;
+}
+
+footer {
+  background-image: url(../image/fotterback.png);
+}
+footer .footer_logo {
+  width: 235px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 100px;
+}
+footer ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 30px;
+}
+footer p {
+  font-family: "Klee One", cursive;
+  color: #797979;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}/*# sourceMappingURL=style.css.map */

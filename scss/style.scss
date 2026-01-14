@@ -1,0 +1,634 @@
+$key-color: #56D8FF;
+$txt-color1: #797979;
+$txt-color2: #272727;
+$main-font: "Zen Kaku Gothic New", sans-serif;
+$title-font: "Alex Brush", cursive;
+
+.back {
+    width: 100%;
+    position: absolute;
+}
+
+body {
+    background-image: url(../image/back.png);
+     background-attachment: fixed;
+     background-position: center;
+}
+
+.yellow1 {
+    position: absolute;
+    width: 93px;
+    top: 0;
+    left: 244px;
+}
+.yellow2 {
+    position: absolute;
+    width: 93px;
+    top: 73px;
+    left: 625px;
+}
+.yellow3 {
+    position: absolute;
+    width: 93px;
+    top: 297px;
+    left: 277px;
+}
+.yellow4 {
+    position: absolute;
+    width: 481px;
+    top: 349px;
+    left: 428px;
+}
+
+.inner {
+    width: 1100px;
+    margin: 0 auto;
+     .side {
+        font-size: 30px;
+        font-family: "Kalam", cursive;
+        font-weight: lighter;
+        color: $key-color;
+        position: fixed;
+        top: 45%;
+        right: -20px;
+        rotate: calc(90deg);
+    }
+}
+
+header {
+    position: relative;
+    .main1 {
+        display: flex;
+    }
+    .content1 {
+         .logo {
+            width: 295px;
+            margin-top: 70px;
+        }
+        .baner {
+            width: 242px;
+            margin-top: 40px;
+        }
+        nav{
+            margin-top: 50px;
+            ul {
+                li {
+                    padding-top: 25px;
+                    p {
+                        font-family: $main-font;
+                        font-size: 20px;
+                        color: $txt-color1;
+                    }
+                }
+            }
+        }
+        .baner-2 {
+            width: 220px;
+            margin-top: 97px;
+        }
+    }
+    .content2 {
+       .main {
+            width: 750px;
+        }
+        .copy-1 {
+            font-size: 35px;
+            font-family: "Klee One", cursive;
+            color: #fff;
+            position: absolute;
+            top: 68px;
+            left: 568px;
+        }
+        .copy-2 {
+            font-size: 35px;
+            font-family: "Klee One", cursive;
+            color: #fff;
+            position: absolute;
+            top: 120px;
+            left: 620px;
+        }
+        h2 {
+            font-size: 48px;
+            font-family: $main-font;
+            font-weight: 600;
+            color: #FFAFDF;
+            position: absolute;
+            top: 835px;
+            right: 0;
+            background-color: #FFFFC8;
+            padding: 10px 15px;
+            border-radius: 10px;
+        }
+    }
+}
+
+main {
+    .news {
+        h1 {
+            font-family: $title-font;
+            font-size: 180px;
+            color: $key-color;
+            rotate: calc(-6deg);
+            margin-left: -100px;
+            margin-top: 100px;
+        }
+        h2 {
+            font-family: $main-font;
+            font-weight: 100;
+            font-size: 42px;
+            color: $txt-color1;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .box1 {
+            margin-top: 33px;
+            ul {
+                width: 608px;
+                margin: 0 auto;
+                li {
+                    p {
+                        font-family: $main-font;
+                        font-size: 20px;
+                        color: $txt-color2;
+                        line-height: 62px;
+                    }
+                }
+            }
+        }
+        .img {
+            .yellow-2,
+            .yellow-3 {
+                width: 150px;
+            }
+            .yellow-2 {
+                position: absolute;
+                top: 1300px;
+            }
+            .yellow-3 {
+                position: absolute;
+                top: 1300px;
+                right: 200px;
+            }
+        }
+    }
+    .move {
+        margin-top: 100px;
+            iframe {
+                width: 1100px;
+                height: 315px;
+                object-fit: cover;
+            }
+        }
+    .Introduction {
+        h1 {
+            font-family: $title-font;
+            font-size: 180px;
+            color: $key-color;
+            rotate: calc(-6deg);
+            margin-left: -100px;
+            margin-top: 100px;
+        }
+        h2 {
+            font-family: $main-font;
+            font-weight: 100;
+            font-size: 42px;
+            color: $txt-color1;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .content3 {
+            p {
+                position: relative;
+                font-family: "Klee One", cursive;
+                color: $txt-color2;
+                margin-top: 72px;
+                font-size: 18px;
+                line-height: 35px;
+                span {
+                    font-size: 15px;
+                }
+                z-index: 10;
+            }
+            img {
+                width: 534px;
+                position: absolute;
+                top: 2470px;
+                right: 200px;
+                z-index: 1;
+            }
+        }
+    }
+    .Story {
+        h1 {
+            font-family: $title-font;
+            font-size: 180px;
+            color: $key-color;
+            rotate: calc(-6deg);
+            margin-left: -100px;
+            margin-top: 100px;
+        }
+        h2 {
+            font-family: $main-font;
+            font-weight: 100;
+            font-size: 42px;
+            color: $txt-color1;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .content4 {
+            p {
+                position: relative;
+                font-family: "Klee One", cursive;
+                color: $txt-color2;
+                margin-top: 72px;
+                font-size: 18px;
+                line-height: 35px;
+                span {
+                    font-size: 15px;
+                }
+                z-index: 10;
+            }
+            img {
+                width: 534px;
+                position: absolute;
+                top: 3310px;
+                right: 200px;
+                z-index: 1;
+            }
+        }
+    }
+    .Character {
+        h1 {
+            font-family: $title-font;
+            font-size: 180px;
+            color: $key-color;
+            rotate: calc(-6deg);
+            margin-left: -100px;
+            margin-top: 100px;
+        }
+        h2 {
+            font-family: $main-font;
+            font-weight: 100;
+            font-size: 42px;
+            color: $txt-color1;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cha {
+            background-image: url(../image/yellow-boll.png);
+            display: flex;             // 横並びにする
+            overflow-x: auto;          // 横スクロールを許可
+            scroll-snap-type: x mandatory; // スナップ機能を有効化
+            gap: 100px;                // キャラクター同士の間隔
+            padding-bottom: 50px;      // 下部の余白（スクロールバー対策）
+            scrollbar-width: none;     // スクロールバーを隠す(Firefox)
+
+            &::-webkit-scrollbar {
+                display: none;         // スクロールバーを隠す(Chrome/Safari)
+            }
+        }
+
+        // 5-1から5-8までの共通設定
+        [class^="content5-"] {
+            flex: 0 0 auto;        // 幅が縮まないように固定
+            width: 1000px;         // 1人分のスライダーの幅（適宜調整してください）
+            scroll-snap-align: center; // スクロール時に中央で止まる
+            
+            background-repeat: no-repeat;
+            display: flex;
+            // position: absolute;  // ←これを削除またはコメントアウト
+            column-gap: 200px;
+            margin-top: 60px;
+
+            // ... 内包する .chara-img や .sai の設定はそのままでOK ...
+            .chara-img img {
+                width: 193px;
+                margin-left: 149px;
+            }
+        }
+        .content5-1,
+        .content5-2,
+        .content5-3,
+        .content5-4,
+        .content5-5,
+        .content5-6,
+        .content5-7,
+        .content5-8{
+            background-image: url(../image/yellow-boll.png);
+            display: flex;
+            column-gap: 200px;
+            margin-top: 60px;
+            .chara-img img {
+                width: 193px;
+                margin-left: 149px;
+            }
+            .sai {
+                margin-top: 80px;
+                .rubi {
+                    margin-left: 20px;
+                    font-size: 15px;
+                    font-family: "Klee One", cursive;
+                }
+                .name {
+                    font-size: 40px;
+                    font-family: "Klee One", cursive;
+                }
+                .cv {
+                    font-size: 20px;
+                    font-family: "Klee One", cursive;
+                    margin-top: 7px;
+                }
+                .syou {
+                    font-size: 15px;
+                    font-family: $main-font;
+                    line-height: 26px;
+                    margin-top: 33px;
+                    width: 450px;
+                }
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 500PX;
+                    gap: 30px;
+                    margin-top: 60px;
+                    li {
+                        img {
+                            width: 80px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content5-2 {
+        .chara-img img {
+                margin-top: 70px;
+            }
+    }
+    .content5-3 {
+        .chara-img img {
+                margin-top: 180px;
+            }
+    }
+    .content5-4 {
+        .chara-img img {
+                margin-top: 170px;
+            }
+    }
+    .content5-5 {
+        .chara-img img {
+                margin-top: 110px;
+            }
+    }
+    .content5-6 {
+        .chara-img img {
+                margin-top: 80px;
+            }
+    }
+    .content5-7 {
+        .chara-img img {
+                margin-top: 70px;
+            }
+    }
+    .content5-8 {
+        .chara-img img {
+                margin-top: 40px;
+            }
+        }
+    
+    .Staff {
+        h1 {
+            font-family: $title-font;
+            font-size: 180px;
+            color: $key-color;
+            rotate: calc(-6deg);
+            margin-left: -100px;
+        }
+        .content-staff {
+            width: 730px;
+            margin: 0 auto;
+            h2 {
+                font-size: 32px;
+                font-family: $main-font;
+                color: $txt-color1;
+                margin-top: 50px;
+            }
+            .txt {
+                background-color: #fff;
+                border: #FFAFDF 1px solid;
+                padding: 50px 0px;
+                .staff1,
+                .staff14 {
+                    p {
+                        font-family: "Klee One", cursive;
+                        font-size: 25px;
+                        color: $txt-color2;
+                        text-align: center;
+                        .bule {
+                        font-family: "Klee One", cursive;
+                        font-weight: 200;
+                        font-size: 20px;
+                        color: $key-color;
+                        }
+                        .komozi {
+                            font-family: "Klee One", cursive;
+                            font-size: 15px;
+                        }
+                    }
+                }
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    padding: 30px 18px;
+                    li {
+                        text-align: center;
+                        p {
+                            font-family: "Klee One", cursive;
+                            font-size: 25px;
+                            color: $txt-color2;
+                            .bule {
+                            font-family: "Klee One", cursive;
+                            font-weight: 200;
+                            font-size: 20px;
+                            color: $key-color;
+                            }
+                            .komozi {
+                                font-family: "Klee One", cursive;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                    .staff2 {
+                        padding-left: 95px;
+                    }
+                    .staff3 {
+                        padding-left: 80px;
+                    }
+                    .staff4 {
+                        padding-left: 30px;
+                        padding-right: 50px;
+                    }
+                    .staff5 {
+                        padding-left: 65px;
+                        padding-top: 30px;
+                    }
+                    .staff6 {
+                        padding-top: 30px;
+                        padding-left: 73px;
+                    }
+                    .staff7 {
+                        padding-top: 30px;
+                        padding-left: 70px;
+                        padding-right: 70px;
+                    }
+                    .staff8 {
+                        padding-top: 30px;
+                        padding-left: 70px;
+                    }
+                    .staff9 {
+                        padding-top: 30px;
+                        padding-left: 85px;
+                    }
+                    .staff10 {
+                        padding-top: 30px;
+                        padding-left: 30px;
+                    }
+                    .staff11 {
+                        padding-top: 30px;
+                        padding-right: 30px;
+                    }
+                    .staff12 {
+                        padding-top: 30px;
+                        padding-left: 5px;
+                        padding-right: 53px;
+                    }
+                    .staff13 {
+                        padding-top: 30px;
+                        padding-left: 50px;
+                        padding-right: 80px;
+                    }
+                }
+            }
+        }
+        .content-cast {
+            width: 730px;
+            margin: 0 auto;
+            h2 {
+                font-size: 32px;
+                font-family: $main-font;
+                color: $txt-color1;
+                margin-top: 50px;
+            }
+            ul {
+                background-color: #fff;
+                border: #FFAFDF 1px solid;
+                padding: 50px 101px;
+                display: flex;
+                flex-wrap: wrap;
+                row-gap: 30px;
+                column-gap: 90px;
+                justify-content: center;
+                li {
+                    font-family: "Klee One", cursive;
+                    font-weight: 200;
+                    font-size: 25px;
+                    color: $txt-color2;
+                    text-align: center;
+                    span {
+                        font-family: "Klee One", cursive;
+                        font-weight: 200;
+                        font-size: 20px;
+                        color: $key-color;
+                        span {
+                            font-size: 15px;
+                        }
+                    }
+                    .cast7 {
+                        padding-left: 0px;
+                    }
+                    .cast8 {
+                        padding-left: 0px;
+                    }
+                    .cast9 {
+                        padding-right: 10px;
+                    }
+                    
+                }
+            }
+        }
+    }
+    .Music {
+        h1 {
+            font-family: $title-font;
+            font-size: 180px;
+            color: $key-color;
+            rotate: calc(-6deg);
+            margin-left: -100px;
+            margin-top: 100px;
+        }
+        h2 {
+            font-family: "Klee One", cursive;
+            color: $txt-color1;
+            text-align: center;
+            font-size: 40px;
+            line-height: 50px;
+            .title {
+                font-size: 32px;
+            }
+            .pink {
+                color: #FFAFDF;
+            }
+        }
+        .content7 {
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            .jaket {
+                img {
+                    width: 350px;
+                }
+            }
+            .mus-txt {
+                font-size: 12px;
+                h3 {
+                    font-size: 15px;
+                    color: #FFAFDF;
+                }
+                p {
+                    padding-top: 10px;
+                    line-height: 16px;
+                    color: $txt-color1;
+                }
+                .txt3 {
+                    margin-top: 20px;
+                } 
+            }
+        }
+    }
+}
+footer {
+    background-image: url(../image/fotterback.png);
+    .footer_logo {
+        width: 235px;
+        margin: 0 auto;
+        display: block;
+        padding-top: 100px;
+    }
+    ul {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    p {
+        font-family: "Klee One", cursive;
+        color: $txt-color1;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+}
